@@ -3,8 +3,8 @@
     "full_name": "langchain-ai/langchain",
     "name": "langchain",
     "description": "The agent engineering platform.",
-    "stars": 142716,
-    "forks": 23756,
+    "stars": 142822,
+    "forks": 23779,
     "language": "Python",
     "topics": [
       "ai",
@@ -28,41 +28,41 @@
       "langgraph",
       "typescript"
     ],
-    "last_updated": "2026-07-28T01:33:47+00:00",
+    "last_updated": "2026-07-29T01:42:09+00:00",
     "created_at": "2022-10-17T02:58:36+00:00",
     "html_url": "https://github.com/langchain-ai/langchain",
     "license": "MIT License",
     "source": "watchlist",
     "recent_commits": [
       {
-        "sha": "73160209c3e60a8311f6e3402686d8982d735f83",
-        "message": "fix(ci): repair model profile refresh workflow expressions (#39095)",
+        "sha": "cdca311de2958e497cfd823a45ddb770d0ef94c0",
+        "message": "fix(core): fall back to `LANGSMITH_API_KEY` for gateway (#39115)",
+        "author": "ccurme",
+        "date": "2026-07-29T00:59:08+00:00"
+      },
+      {
+        "sha": "a5a8762436658b218dbfc5efff9e8ab8fabbe62f",
+        "message": "ci: annotate uv bump workflow with PR links (#39112)",
         "author": "Mason Daugherty",
-        "date": "2026-07-27T17:18:15+00:00"
+        "date": "2026-07-28T19:53:17+00:00"
       },
       {
-        "sha": "a24f9ebe557465d0b33b41f18d9f72b7a422fe5e",
-        "message": "ci: add provider filter to model profile refresh workflow (#39094)",
-        "author": "Mason Daugherty",
-        "date": "2026-07-27T17:00:20+00:00"
+        "sha": "557c0a986d5068085a945dcb3c9ce27257c4add8",
+        "message": "chore(deps): bump uv to 0.12.0 (#39111)",
+        "author": "github-actions[bot]",
+        "date": "2026-07-28T19:27:57+00:00"
       },
       {
-        "sha": "40956c3882857050f32e3617a4776612acb827b6",
-        "message": "release(fireworks): 1.5.2 (#39093)",
-        "author": "Mason Daugherty",
-        "date": "2026-07-27T16:53:20+00:00"
+        "sha": "835c85ae236a2d33cd11de4c98d28cbc6ebbd72f",
+        "message": "release(anthropic): 1.5.3 (#39109)",
+        "author": "ccurme",
+        "date": "2026-07-28T16:58:21+00:00"
       },
       {
-        "sha": "828335a920794994872fb2a742c99febbb1846a7",
-        "message": "chore(model-profiles): refresh model profile data (#39092)",
-        "author": "langchain-oss-model-profiles[bot]",
-        "date": "2026-07-27T16:37:41+00:00"
-      },
-      {
-        "sha": "c5066f1d1296214e89f9bd33a524f4d2e782260c",
-        "message": "chore(model-profiles): refresh model profile data (#39084)",
-        "author": "langchain-oss-model-profiles[bot]",
-        "date": "2026-07-27T13:58:45+00:00"
+        "sha": "c1ab807b1f62ad04274c28f2b7d8c3141d8ba1f2",
+        "message": "release(core): 1.5.2 (#39108)",
+        "author": "ccurme",
+        "date": "2026-07-28T16:30:42+00:00"
       }
     ],
     "contributors": [
@@ -78,12 +78,12 @@
       },
       {
         "login": "ccurme",
-        "contributions": 1046,
+        "contributions": 1050,
         "avatar_url": "https://avatars.githubusercontent.com/u/26529506?v=4"
       },
       {
         "login": "mdrxy",
-        "contributions": 926,
+        "contributions": 927,
         "avatar_url": "https://avatars.githubusercontent.com/u/61371264?v=4"
       },
       {
@@ -92,7 +92,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/3205522?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:42:49.576232",
+    "fetched_at": "2026-07-29T01:44:18.030214",
     "history": [
       {
         "date": "2026-02-25",
@@ -863,6 +863,11 @@
         "date": "2026-07-28",
         "stars": 142632,
         "forks": 23749
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 142716,
+        "forks": 23756
       }
     ]
   },
@@ -870,8 +875,8 @@
     "full_name": "langchain-ai/langgraph",
     "name": "langgraph",
     "description": "Build resilient agents.",
-    "stars": 38270,
-    "forks": 6440,
+    "stars": 38363,
+    "forks": 6464,
     "language": "Python",
     "topics": [
       "agents",
@@ -893,12 +898,18 @@
       "python",
       "rag"
     ],
-    "last_updated": "2026-07-28T01:39:36+00:00",
+    "last_updated": "2026-07-29T01:40:39+00:00",
     "created_at": "2023-08-09T18:33:12+00:00",
     "html_url": "https://github.com/langchain-ai/langgraph",
     "license": "MIT License",
     "source": "watchlist",
     "recent_commits": [
+      {
+        "sha": "41341457342327166d72fc11952ab28fb61ec0bf",
+        "message": "release(langgraph): 1.2.10 (#8462)",
+        "author": "Saad Farooq",
+        "date": "2026-07-28T14:49:37+00:00"
+      },
       {
         "sha": "30c4d58db86455128e42ddec96b1ba53c553ba22",
         "message": "chore(deps): bump jupyterlab from 4.5.9 to 4.5.10 in /libs/langgraph (#8440)",
@@ -922,12 +933,6 @@
         "message": "chore(deps): bump setuptools from 80.9.0 to 83.0.0 in /libs/langgraph (#8435)",
         "author": "dependabot[bot]",
         "date": "2026-07-25T07:33:43+00:00"
-      },
-      {
-        "sha": "1e1ca88dad9c7e708263257fa9fc27a3fbdfff68",
-        "message": "feat(langgraph): type v3 stream_events return and native projections (#8389)",
-        "author": "Nick Hollon",
-        "date": "2026-07-24T17:16:41+00:00"
       }
     ],
     "contributors": [
@@ -957,7 +962,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/3205522?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:42:52.385607",
+    "fetched_at": "2026-07-29T01:44:20.697239",
     "history": [
       {
         "date": "2026-02-25",
@@ -1728,6 +1733,11 @@
         "date": "2026-07-28",
         "stars": 38196,
         "forks": 6425
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 38270,
+        "forks": 6440
       }
     ]
   },
@@ -1735,8 +1745,8 @@
     "full_name": "huggingface/transformers",
     "name": "transformers",
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-    "stars": 163047,
-    "forks": 34044,
+    "stars": 163074,
+    "forks": 34055,
     "language": "Python",
     "topics": [
       "nlp",
@@ -1759,41 +1769,41 @@
       "qwen",
       "vlm"
     ],
-    "last_updated": "2026-07-28T01:39:54+00:00",
+    "last_updated": "2026-07-29T00:51:40+00:00",
     "created_at": "2018-10-29T13:56:00+00:00",
     "html_url": "https://github.com/huggingface/transformers",
     "license": "Apache License 2.0",
     "source": "watchlist",
     "recent_commits": [
       {
-        "sha": "44752c8dd99f3fb0da23006dc4fde4a07d9c417f",
-        "message": "Remove deprecated conversion in Kimi (#47581)",
-        "author": "Raushan Turganbay",
-        "date": "2026-07-27T14:49:06+00:00"
+        "sha": "af71155683b4d34dd92d8f037392fa6bf334035e",
+        "message": "Fix model parallel device mismatch in `create_bidirectional_sliding_window_mask` (#47560)",
+        "author": "Andrei Boldyrev",
+        "date": "2026-07-28T16:43:45+00:00"
       },
       {
-        "sha": "aac2512e0606bd981616198779f0eb2e705dac7d",
-        "message": "CI: use transformers-ci daily workflow with OTEL (#47360)",
+        "sha": "d0e91c7ff1d3ab41b49de369a396f65191e34d2b",
+        "message": "CI: use a single function for GH calls (#47474)",
         "author": "Tarek Ziade",
-        "date": "2026-07-27T13:58:50+00:00"
+        "date": "2026-07-28T14:03:35+00:00"
       },
       {
-        "sha": "f3f0c8b7784f56717e37743cabfc3c51041f24ed",
-        "message": "Fix slow tensor path in _check_special_mm_tokens (#47580)",
-        "author": "Guan-Ming Chiu",
-        "date": "2026-07-27T12:13:00+00:00"
+        "sha": "ebea912f0bb6f9e28ad2df04acd9b4df035933a9",
+        "message": "Kernels and loaders robustification (#47334)",
+        "author": "Ilyas Moutawwakil",
+        "date": "2026-07-28T13:19:09+00:00"
       },
       {
-        "sha": "4a311bbb7c6ed4af899c5fa37286eb98017e2a38",
-        "message": "CI: let's run integration failure cron at 10pm (#47537)",
-        "author": "Tarek Ziade",
-        "date": "2026-07-27T11:43:36+00:00"
+        "sha": "ff24c90cdda4b620327e8b4168692729289ce477",
+        "message": "Fix A.X-K2 fp8 modules_to_not_convert normalization for the gated-norm MLP (#47578)",
+        "author": "Minsang Kim",
+        "date": "2026-07-28T12:11:27+00:00"
       },
       {
-        "sha": "5b6f170abc3559a8b60583003be24d34c495fe7c",
-        "message": "Better and more extensive tests for RoPE (#46912)",
-        "author": "Raushan Turganbay",
-        "date": "2026-07-27T11:03:06+00:00"
+        "sha": "dff4572dfa4bfa9f00cc8414e4b84877552fefe9",
+        "message": "Remove redundant guarding for distributed (#47570)",
+        "author": "Ferdinand Mom",
+        "date": "2026-07-28T04:44:48+00:00"
       }
     ],
     "contributors": [
@@ -1823,7 +1833,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/23423619?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:42:55.273784",
+    "fetched_at": "2026-07-29T01:44:23.446719",
     "history": [
       {
         "date": "2026-02-25",
@@ -2594,6 +2604,11 @@
         "date": "2026-07-28",
         "stars": 163009,
         "forks": 34026
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 163047,
+        "forks": 34044
       }
     ]
   },
@@ -2601,8 +2616,8 @@
     "full_name": "vllm-project/vllm",
     "name": "vllm",
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
-    "stars": 87356,
-    "forks": 19933,
+    "stars": 87497,
+    "forks": 19993,
     "language": "Python",
     "topics": [
       "gpt",
@@ -2626,41 +2641,41 @@
       "openai",
       "qwen3"
     ],
-    "last_updated": "2026-07-28T01:41:56+00:00",
+    "last_updated": "2026-07-29T01:43:30+00:00",
     "created_at": "2023-02-09T11:23:20+00:00",
     "html_url": "https://github.com/vllm-project/vllm",
     "license": "Apache License 2.0",
     "source": "watchlist",
     "recent_commits": [
       {
-        "sha": "1206891822ca8befe421879a4230ef42a3fc93be",
-        "message": "[ROCm][KVConnector][MoRI-IO] Fix WRITE-mode remote-TP rank collapse (#46332 follow-up) (#47764)",
-        "author": "avininjamay8",
-        "date": "2026-07-28T01:26:24+00:00"
+        "sha": "7f4c52f2ba38a77d5341fb90a31c2cedfc0066b8",
+        "message": "[CI] Add comment-based Buildkite triggers (#50132)",
+        "author": "Kevin H. Luu",
+        "date": "2026-07-29T01:41:48+00:00"
       },
       {
-        "sha": "60b3d39cd36c53a698040edbf51406d3febc97a7",
-        "message": "[Docs] Remove experimental warning for EP (#50057)",
-        "author": "Woosuk Kwon",
-        "date": "2026-07-28T00:06:28+00:00"
+        "sha": "6fbbcf2151c34cd9313c223b8cbf19afa77f2ea6",
+        "message": "[BugFix] Stop dummy runs from writing mamba state through stale block-table rows (#49757)",
+        "author": "Nick Hill",
+        "date": "2026-07-29T01:09:41+00:00"
       },
       {
-        "sha": "60417b4b744c371453eddcf5c8fa0f184418c957",
-        "message": "[Core][PCP] Select MRV2 when PCP is enabled (#50034)",
-        "author": "Lucas Wilkinson",
-        "date": "2026-07-28T00:03:26+00:00"
+        "sha": "56f31af62afe6553369b14af225bfafb788e99a0",
+        "message": "[Bugfix] Fix /wake_up crash on hybrid models (Mamba/DeltaNet) (#41602)",
+        "author": "Kevin Glynn",
+        "date": "2026-07-29T00:17:35+00:00"
       },
       {
-        "sha": "272abd5f486967f1fb9db7ca7504f8c34235ef50",
-        "message": "[Tests][Spec Decode] Add gemma4 MTP acceptance rates test (#47920)",
-        "author": "Giancarlo Delfin",
-        "date": "2026-07-27T23:15:54+00:00"
+        "sha": "fe65aa6a97981c815800daa4bf49d8356b8c4988",
+        "message": "[CI][NIXL] Fix flaky DP+EP test port conflict (#50171)",
+        "author": "Divakar Verma",
+        "date": "2026-07-29T00:12:50+00:00"
       },
       {
-        "sha": "1e34a135390b4fa3370cf55885b442667c3b8ba6",
-        "message": "Fix Humming non-gated MoE (#49096)",
-        "author": "Netanel Haber",
-        "date": "2026-07-27T22:56:44+00:00"
+        "sha": "176256b9628d2d8d22db41d7a72c15540f438026",
+        "message": "[ROCm][CI] Stabilize ROCm audio streaming test (#50163)",
+        "author": "Andreas Karatzas",
+        "date": "2026-07-28T23:58:10+00:00"
       }
     ],
     "contributors": [
@@ -2671,7 +2686,7 @@
       },
       {
         "login": "WoosukKwon",
-        "contributions": 827,
+        "contributions": 828,
         "avatar_url": "https://avatars.githubusercontent.com/u/46394894?v=4"
       },
       {
@@ -2681,7 +2696,7 @@
       },
       {
         "login": "hmellor",
-        "contributions": 539,
+        "contributions": 540,
         "avatar_url": "https://avatars.githubusercontent.com/u/19981378?v=4"
       },
       {
@@ -2690,7 +2705,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/23236638?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:42:58.149246",
+    "fetched_at": "2026-07-29T01:44:26.459145",
     "history": [
       {
         "date": "2026-02-25",
@@ -3461,6 +3476,11 @@
         "date": "2026-07-28",
         "stars": 87246,
         "forks": 19891
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 87356,
+        "forks": 19933
       }
     ]
   },
@@ -3468,8 +3488,8 @@
     "full_name": "ollama/ollama",
     "name": "ollama",
     "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-    "stars": 177032,
-    "forks": 17138,
+    "stars": 177139,
+    "forks": 17163,
     "language": "Go",
     "topics": [
       "llama",
@@ -3488,12 +3508,18 @@
       "glm",
       "minimax"
     ],
-    "last_updated": "2026-07-28T01:30:00+00:00",
+    "last_updated": "2026-07-29T01:39:48+00:00",
     "created_at": "2023-06-26T19:39:32+00:00",
     "html_url": "https://github.com/ollama/ollama",
     "license": "MIT License",
     "source": "watchlist",
     "recent_commits": [
+      {
+        "sha": "4713800b08b2ddf5e14acf8398953cf7b12f169b",
+        "message": "imagegen: remove MLX image generation code (#16615)",
+        "author": "Jeffrey Morgan",
+        "date": "2026-07-28T22:35:28+00:00"
+      },
       {
         "sha": "0e2e34aa86742d17265528f107ea9ddec410c951",
         "message": "cmd/tui: improve prompt debug rendering (#17334)",
@@ -3517,12 +3543,6 @@
         "message": "ci: on release builds dont fail fast (#17413)",
         "author": "Daniel Hiltgen",
         "date": "2026-07-27T15:01:04+00:00"
-      },
-      {
-        "sha": "be7572e2cf442789e1c0f7fbbbd8bb5c89250a7d",
-        "message": "mlx update (#17397)",
-        "author": "Daniel Hiltgen",
-        "date": "2026-07-26T23:59:47+00:00"
       }
     ],
     "contributors": [
@@ -3538,7 +3558,7 @@
       },
       {
         "login": "jmorganca",
-        "contributions": 914,
+        "contributions": 915,
         "avatar_url": "https://avatars.githubusercontent.com/u/251292?v=4"
       },
       {
@@ -3552,7 +3572,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6468499?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:43:01.087827",
+    "fetched_at": "2026-07-29T01:44:29.116377",
     "history": [
       {
         "date": "2026-02-25",
@@ -4323,6 +4343,11 @@
         "date": "2026-07-28",
         "stars": 176944,
         "forks": 17124
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 177032,
+        "forks": 17138
       }
     ]
   },
@@ -4331,10 +4356,10 @@
     "name": "llama",
     "description": "Inference code for Llama models",
     "stars": 59525,
-    "forks": 9798,
+    "forks": 9799,
     "language": "Python",
     "topics": [],
-    "last_updated": "2026-07-28T00:35:18+00:00",
+    "last_updated": "2026-07-28T14:26:08+00:00",
     "created_at": "2023-02-14T09:29:12+00:00",
     "html_url": "https://github.com/meta-llama/llama",
     "license": "Other",
@@ -4398,7 +4423,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/5676233?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:43:03.781802",
+    "fetched_at": "2026-07-29T01:44:31.900437",
     "history": [
       {
         "date": "2026-02-25",
@@ -5169,6 +5194,11 @@
         "date": "2026-07-28",
         "stars": 59526,
         "forks": 9798
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 59525,
+        "forks": 9798
       }
     ]
   },
@@ -5176,7 +5206,7 @@
     "full_name": "mistralai/mistral-inference",
     "name": "mistral-inference",
     "description": "Official inference library for Mistral models",
-    "stars": 10834,
+    "stars": 10835,
     "forks": 1055,
     "language": "Jupyter Notebook",
     "topics": [
@@ -5184,7 +5214,7 @@
       "llm-inference",
       "mistralai"
     ],
-    "last_updated": "2026-07-28T01:26:58+00:00",
+    "last_updated": "2026-07-28T01:59:11+00:00",
     "created_at": "2023-09-27T13:05:24+00:00",
     "html_url": "https://github.com/mistralai/mistral-inference",
     "license": "Apache License 2.0",
@@ -5248,7 +5278,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/4078691?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:43:06.990521",
+    "fetched_at": "2026-07-29T01:44:34.849036",
     "history": [
       {
         "date": "2026-02-25",
@@ -6019,6 +6049,11 @@
         "date": "2026-07-28",
         "stars": 10832,
         "forks": 1055
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 10834,
+        "forks": 1055
       }
     ]
   },
@@ -6026,11 +6061,11 @@
     "full_name": "anthropics/claude-code",
     "name": "claude-code",
     "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-    "stars": 139331,
-    "forks": 22386,
+    "stars": 139423,
+    "forks": 22389,
     "language": "Python",
     "topics": [],
-    "last_updated": "2026-07-28T01:40:43+00:00",
+    "last_updated": "2026-07-29T01:11:29+00:00",
     "created_at": "2025-02-22T17:41:21+00:00",
     "html_url": "https://github.com/anthropics/claude-code",
     "license": null,
@@ -6094,7 +6129,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/605424?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:43:09.882082",
+    "fetched_at": "2026-07-29T01:44:37.435021",
     "history": [
       {
         "date": "2026-02-25",
@@ -6865,6 +6900,11 @@
         "date": "2026-07-28",
         "stars": 139203,
         "forks": 22362
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 139331,
+        "forks": 22386
       }
     ]
   },
@@ -6872,8 +6912,8 @@
     "full_name": "Comfy-Org/ComfyUI",
     "name": "ComfyUI",
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-    "stars": 122513,
-    "forks": 14459,
+    "stars": 122637,
+    "forks": 14479,
     "language": "Python",
     "topics": [
       "stable-diffusion",
@@ -6883,52 +6923,52 @@
       "comfy",
       "comfyui"
     ],
-    "last_updated": "2026-07-28T01:38:37+00:00",
+    "last_updated": "2026-07-29T01:44:34+00:00",
     "created_at": "2023-01-17T03:15:56+00:00",
     "html_url": "https://github.com/Comfy-Org/ComfyUI",
     "license": "GNU General Public License v3.0",
     "source": "watchlist",
     "recent_commits": [
       {
-        "sha": "a3572c4832f3a047dc1fdd4017cad2ff7ffeab9f",
-        "message": "Allow using float fps for LTXVEmptyLatentAudio (#15106)",
+        "sha": "42d2aa55432b57371ddc9d4078ae250b54227641",
+        "message": "[Dataset/Security,Feature] Add dataset folder to avoid arbitrary folder access for dataset stuff. (#14807)",
+        "author": "Kohaku-Blueleaf",
+        "date": "2026-07-28T23:03:04+00:00"
+      },
+      {
+        "sha": "c38171ddb93368ee6a6bbc677b92e4b50cead865",
+        "message": "Support Pruna LTX VAE (#15129)",
         "author": "Jukka Seppänen",
-        "date": "2026-07-27T20:04:14+00:00"
+        "date": "2026-07-28T22:25:55+00:00"
       },
       {
-        "sha": "c06ee57933f2d4a9b644ab76a918c02e857fd126",
-        "message": "[Partner Nodes] feat(Anthropic): add Claude Opus 5 model (#15079)",
-        "author": "Alexander Piskun",
-        "date": "2026-07-27T17:10:44+00:00"
+        "sha": "fbe6d3ca8fc19ab5bd47690c64bad5e844dc971c",
+        "message": "Add configurable DETAIL logging side channel (#15064)",
+        "author": "rattus",
+        "date": "2026-07-28T21:31:45+00:00"
       },
       {
-        "sha": "093d571b83e7a79833200e199b46b9f5a62217f9",
-        "message": "chore: update embedded docs to v0.5.9 (#15092)",
-        "author": "Daxiong (Lin)",
-        "date": "2026-07-27T00:59:14+00:00"
+        "sha": "c01175530ed36fcb5961c2f2f2598e19b73287b9",
+        "message": "Load weights to process RAM with MRU policy using pinning infrastructure (#15027)",
+        "author": "rattus",
+        "date": "2026-07-28T21:05:57+00:00"
       },
       {
-        "sha": "02c688429e40577510fad10c1e113cceb72b5d6d",
-        "message": "Update AGENTS.md (#15096)",
-        "author": "comfyanonymous",
-        "date": "2026-07-26T21:21:05+00:00"
-      },
-      {
-        "sha": "806e092ed42772e4ce7abf44c97c50021cc4bd10",
-        "message": "Fix MageFlow on cards that don't support bf16 (#15081)",
+        "sha": "3d41e3ea4e0f0154487759810e00af569c5a5c60",
+        "message": "Support int8 convrot embedding lookup (#15035)",
         "author": "Jukka Seppänen",
-        "date": "2026-07-26T01:01:51+00:00"
+        "date": "2026-07-28T21:02:57+00:00"
       }
     ],
     "contributors": [
       {
         "login": "comfyanonymous",
-        "contributions": 3250,
+        "contributions": 3254,
         "avatar_url": "https://avatars.githubusercontent.com/u/121283862?v=4"
       },
       {
         "login": "bigcat88",
-        "contributions": 347,
+        "contributions": 349,
         "avatar_url": "https://avatars.githubusercontent.com/u/13381981?v=4"
       },
       {
@@ -6938,16 +6978,16 @@
       },
       {
         "login": "comfyui-wiki",
-        "contributions": 156,
+        "contributions": 157,
         "avatar_url": "https://avatars.githubusercontent.com/u/192523189?v=4"
       },
       {
         "login": "rattus128",
-        "contributions": 137,
+        "contributions": 139,
         "avatar_url": "https://avatars.githubusercontent.com/u/46076784?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:43:14.251587",
+    "fetched_at": "2026-07-29T01:44:41.421601",
     "history": [
       {
         "date": "2026-02-25",
@@ -7718,6 +7758,11 @@
         "date": "2026-07-28",
         "stars": 122388,
         "forks": 14437
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 122513,
+        "forks": 14459
       }
     ]
   },
@@ -7725,8 +7770,8 @@
     "full_name": "AUTOMATIC1111/stable-diffusion-webui",
     "name": "stable-diffusion-webui",
     "description": "Stable Diffusion web UI",
-    "stars": 164292,
-    "forks": 30454,
+    "stars": 164293,
+    "forks": 30448,
     "language": "Python",
     "topics": [
       "deep-learning",
@@ -7746,7 +7791,7 @@
       "web",
       "unstable"
     ],
-    "last_updated": "2026-07-28T01:11:22+00:00",
+    "last_updated": "2026-07-29T01:23:32+00:00",
     "created_at": "2022-08-22T14:05:26+00:00",
     "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
     "license": "GNU Affero General Public License v3.0",
@@ -7810,7 +7855,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/122327233?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:43:17.057098",
+    "fetched_at": "2026-07-29T01:44:43.943632",
     "history": [
       {
         "date": "2026-02-25",
@@ -8581,6 +8626,11 @@
         "date": "2026-07-28",
         "stars": 164278,
         "forks": 30447
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 164292,
+        "forks": 30454
       }
     ]
   },
@@ -8588,8 +8638,8 @@
     "full_name": "OpenHands/OpenHands",
     "name": "OpenHands",
     "description": "🙌 OpenHands: AI-Driven Development",
-    "stars": 82329,
-    "forks": 10541,
+    "stars": 82434,
+    "forks": 10573,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -8602,41 +8652,41 @@
       "gpt",
       "openai"
     ],
-    "last_updated": "2026-07-28T01:27:03+00:00",
+    "last_updated": "2026-07-29T01:37:29+00:00",
     "created_at": "2024-03-13T03:33:31+00:00",
     "html_url": "https://github.com/OpenHands/OpenHands",
     "license": "MIT License",
     "source": "watchlist",
     "recent_commits": [
       {
-        "sha": "185ba90f1cd12d4535d3a03a3a4eb065f5ef34c8",
-        "message": "feat: always show the LLM selector; move agent-profile switching to the tools menu (#16099)",
-        "author": "Hiep Le",
-        "date": "2026-07-27T18:31:34+00:00"
-      },
-      {
-        "sha": "f0f409cfa40d9851154ff759d42a63cf9c6f2209",
-        "message": "fix: mount telemetry lifecycle from provider (#16092)",
+        "sha": "2965aca5cac67aeebb36ef7d05b64fc1c695fc16",
+        "message": "ci: restore tag publish triggers (#16141)",
         "author": "Rohit Malhotra",
-        "date": "2026-07-27T16:45:18+00:00"
+        "date": "2026-07-28T18:13:55+00:00"
       },
       {
-        "sha": "d743ebbc459b6d884377836cad51527fa731e763",
-        "message": "Merge pull request #15413 from OpenHands/agent/replay-agent-canvas",
-        "author": "Graham Neubig",
-        "date": "2026-07-27T13:43:58+00:00"
+        "sha": "c9b706b47b235df7cab54d2bb1b08b827a62a02a",
+        "message": "ci: remove stale release-please bootstrap sha (#16138)",
+        "author": "Rohit Malhotra",
+        "date": "2026-07-28T17:48:50+00:00"
       },
       {
-        "sha": "cb9138caf673de8d34794225afb73385c075ea67",
-        "message": "chore: clear repository for Agent Canvas migration (#15397)",
-        "author": "Graham Neubig",
-        "date": "2026-07-27T13:09:20+00:00"
+        "sha": "5c1b1811f83dde684a845120f8ff1a3b3d24b982",
+        "message": "feat: allow overwriting a secret value from the edit form (#16134)",
+        "author": "Hiep Le",
+        "date": "2026-07-28T17:46:16+00:00"
       },
       {
-        "sha": "969e4155a17bba8a925c01320e23495821718028",
-        "message": "fix: skip redundant ready Cloud onboarding (#1942)",
-        "author": "Graham Neubig",
-        "date": "2026-07-26T20:10:56+00:00"
+        "sha": "725e241330bb6e65184014e4a252e999d5b28cac",
+        "message": "ci: disable tag publish triggers for release migration (#16133)",
+        "author": "Rohit Malhotra",
+        "date": "2026-07-28T17:11:45+00:00"
+      },
+      {
+        "sha": "850bd647b64c9a6b5d2bbf25d4d9e16a3c6f685e",
+        "message": "fix: Track cookie-auth Cloud backend connections (#16113)",
+        "author": "Rohit Malhotra",
+        "date": "2026-07-28T16:06:13+00:00"
       }
     ],
     "contributors": [
@@ -8657,7 +8707,7 @@
       },
       {
         "login": "hieptl",
-        "contributions": 626,
+        "contributions": 629,
         "avatar_url": "https://avatars.githubusercontent.com/u/69354317?v=4"
       },
       {
@@ -8666,7 +8716,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7611973?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:43:20.102832",
+    "fetched_at": "2026-07-29T01:44:46.841236",
     "history": [
       {
         "date": "2026-02-25",
@@ -9437,6 +9487,11 @@
         "date": "2026-07-28",
         "stars": 82201,
         "forks": 10520
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 82329,
+        "forks": 10541
       }
     ]
   },
@@ -9444,8 +9499,8 @@
     "full_name": "run-llama/llama_index",
     "name": "llama_index",
     "description": "LlamaIndex is the leading document agent and OCR platform",
-    "stars": 51146,
-    "forks": 7815,
+    "stars": 51176,
+    "forks": 7825,
     "language": "Python",
     "topics": [
       "agents",
@@ -9459,12 +9514,24 @@
       "vector-database",
       "multi-agents"
     ],
-    "last_updated": "2026-07-27T23:20:50+00:00",
+    "last_updated": "2026-07-29T01:01:40+00:00",
     "created_at": "2022-11-02T04:24:54+00:00",
     "html_url": "https://github.com/run-llama/llama_index",
     "license": "MIT License",
     "source": "watchlist",
     "recent_commits": [
+      {
+        "sha": "c864fcfa2c1d1f987ccdbcdab7b18e395c01ba86",
+        "message": "fix: improve otel span ID handling (#22485)",
+        "author": "Logan",
+        "date": "2026-07-28T20:29:33+00:00"
+      },
+      {
+        "sha": "f2b088378c6862d67e3b7163f7e73159dbbb7fc9",
+        "message": "Add telemetry (#22473)",
+        "author": "Viraj Agarwal",
+        "date": "2026-07-28T17:18:40+00:00"
+      },
       {
         "sha": "199e9b5b130bbde72639358a08935b913e7132c0",
         "message": "feat(anthropic, bedrock-converse): add Claude Opus 5 to model allowlists (#22451)",
@@ -9482,24 +9549,12 @@
         "message": "fix: handle decode_responses=True in RedisKVStore (#22115) (#22137)",
         "author": "C1-BA-B1-F3",
         "date": "2026-07-21T19:14:57+00:00"
-      },
-      {
-        "sha": "60a754ca8361d0ec5fcabfee4c3006ff995edb8c",
-        "message": "fix(core): default MetadataFilters condition to AND when None (#22155)",
-        "author": "Aditya Aggarwal",
-        "date": "2026-07-21T02:55:51+00:00"
-      },
-      {
-        "sha": "863403b51124b75d8a917ab74cfb2ddf8ffd8cd9",
-        "message": "fix(azureaisearch): preserve falsy metadata values when indexing nodes (#22154)",
-        "author": "citizen204",
-        "date": "2026-07-21T02:55:29+00:00"
       }
     ],
     "contributors": [
       {
         "login": "logan-markewich",
-        "contributions": 1285,
+        "contributions": 1286,
         "avatar_url": "https://avatars.githubusercontent.com/u/22285038?v=4"
       },
       {
@@ -9523,7 +9578,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/92402603?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:43:23.670893",
+    "fetched_at": "2026-07-29T01:44:50.180417",
     "history": [
       {
         "date": "2026-02-25",
@@ -10294,6 +10349,11 @@
         "date": "2026-07-28",
         "stars": 51128,
         "forks": 7813
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 51146,
+        "forks": 7815
       }
     ]
   },
@@ -10301,8 +10361,8 @@
     "full_name": "milvus-io/milvus",
     "name": "milvus",
     "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
-    "stars": 45391,
-    "forks": 4145,
+    "stars": 45404,
+    "forks": 4147,
     "language": "Go",
     "topics": [
       "anns",
@@ -10324,41 +10384,41 @@
       "diskann",
       "rag"
     ],
-    "last_updated": "2026-07-27T22:02:30+00:00",
+    "last_updated": "2026-07-29T01:30:11+00:00",
     "created_at": "2019-09-16T06:43:43+00:00",
     "html_url": "https://github.com/milvus-io/milvus",
     "license": "Apache License 2.0",
     "source": "watchlist",
     "recent_commits": [
       {
-        "sha": "2aa532b493b96cf71c97ea07a5f61e51efedd90c",
-        "message": "fix: honor gc pause timeout (#51607)",
-        "author": "yihao.dai",
-        "date": "2026-07-27T22:02:17+00:00"
-      },
-      {
-        "sha": "4ffe2f3caf1e9f424319ece0b6f2ab69eb65eef1",
-        "message": "fix: correct JSON shift not-equal evaluation (#51904)",
+        "sha": "fa8671b0e294cab74c5461e4df9447397b073f8f",
+        "message": "fix: classify NGRAM as a scalar index (#51910)",
         "author": "James",
-        "date": "2026-07-27T19:18:30+00:00"
+        "date": "2026-07-28T23:42:15+00:00"
       },
       {
-        "sha": "997e8eefefe38b16a0ab4f016ac351824746d6b1",
-        "message": "feat: implement shift (<<, >>) and bitwise NOT (~) in filter expressi… (#51051)",
-        "author": "L1ric",
-        "date": "2026-07-27T16:06:20+00:00"
+        "sha": "46fa34f26ae20e08099272b3ed9f99b1a3a506b0",
+        "message": "test: remove stale broadcaster cancellation test (#51955)",
+        "author": "aoiasd",
+        "date": "2026-07-28T23:04:15+00:00"
       },
       {
-        "sha": "61f7a6ca041b4904b8e0444363fab157d0d38a5f",
-        "message": "fix: decode field stats centroids explicitly instead of relying on decoder merge (#51870)",
+        "sha": "2a88afd464762aa96bf109f6e23441c0cb05c850",
+        "message": "fix: avoid OpenMP overhead in vector test data generation (#51959)",
         "author": "James",
-        "date": "2026-07-27T10:48:18+00:00"
+        "date": "2026-07-28T21:47:00+00:00"
       },
       {
-        "sha": "c271e3ac3e4a739692ba7af55c28455ffd643d6c",
-        "message": "fix: stop handing Go dangling pointers from GetAnalyzeResultMeta (#51877)",
-        "author": "James",
-        "date": "2026-07-27T09:24:18+00:00"
+        "sha": "8286b0e52c8332d9290a669caf19f75984c9503a",
+        "message": "enhance: unify RecordReader ownership on a borrow contract (#51884)",
+        "author": "Chun Han",
+        "date": "2026-07-28T18:56:16+00:00"
+      },
+      {
+        "sha": "66969850be051186811eccbc0005bde340bbc273",
+        "message": "fix: fix flaky tests (#51951)",
+        "author": "Spade  A",
+        "date": "2026-07-28T14:57:21+00:00"
       }
     ],
     "contributors": [
@@ -10379,7 +10439,7 @@
       },
       {
         "login": "zhuwenxing",
-        "contributions": 837,
+        "contributions": 839,
         "avatar_url": "https://avatars.githubusercontent.com/u/12268675?v=4"
       },
       {
@@ -10388,7 +10448,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46207236?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:43:26.402602",
+    "fetched_at": "2026-07-29T01:44:52.924177",
     "history": [
       {
         "date": "2026-02-25",
@@ -11159,6 +11219,11 @@
         "date": "2026-07-28",
         "stars": 45388,
         "forks": 4143
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 45391,
+        "forks": 4145
       }
     ]
   },
@@ -11166,8 +11231,8 @@
     "full_name": "chroma-core/chroma",
     "name": "chroma",
     "description": "Search infrastructure for AI",
-    "stars": 28891,
-    "forks": 2403,
+    "stars": 28898,
+    "forks": 2410,
     "language": "Rust",
     "topics": [
       "database",
@@ -11177,12 +11242,18 @@
       "agents",
       "ai-agents"
     ],
-    "last_updated": "2026-07-28T01:35:17+00:00",
+    "last_updated": "2026-07-29T00:36:55+00:00",
     "created_at": "2022-10-05T17:58:44+00:00",
     "html_url": "https://github.com/chroma-core/chroma",
     "license": "Apache License 2.0",
     "source": "watchlist",
     "recent_commits": [
+      {
+        "sha": "8e0eb87e4e3de0fa832a7fb5f736fc32cfd7738c",
+        "message": "[BUG](worker): Detach fn-consumer batches (#7521)",
+        "author": "tanujnay112",
+        "date": "2026-07-29T00:36:48+00:00"
+      },
       {
         "sha": "8bb6aed393261dcb328341cffb4e0d3d985f0d7e",
         "message": "[ENH](foundation-api): stamp optional author on page writes (#7515)",
@@ -11206,12 +11277,6 @@
         "message": "[BUG](dispatcher): shut down IO runtime cleanly without async-context panic (#7100)",
         "author": "Robert Escriva",
         "date": "2026-07-27T16:21:25+00:00"
-      },
-      {
-        "sha": "f2cfcc035833f5310c1ba0636a3d6831134108e7",
-        "message": "[CHORE](foundation): Add pod identity service account (#7502)",
-        "author": "tanujnay112",
-        "date": "2026-07-24T23:37:55+00:00"
       }
     ],
     "contributors": [
@@ -11241,7 +11306,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60079945?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:43:29.191715",
+    "fetched_at": "2026-07-29T01:44:55.532430",
     "history": [
       {
         "date": "2026-02-25",
@@ -12012,6 +12077,11 @@
         "date": "2026-07-28",
         "stars": 28885,
         "forks": 2404
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 28891,
+        "forks": 2403
       }
     ]
   },
@@ -12019,11 +12089,11 @@
     "full_name": "mlabonne/llm-course",
     "name": "llm-course",
     "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
-    "stars": 81279,
-    "forks": 9476,
+    "stars": 81293,
+    "forks": 9477,
     "language": null,
     "topics": [],
-    "last_updated": "2026-07-28T00:52:58+00:00",
+    "last_updated": "2026-07-28T23:38:44+00:00",
     "created_at": "2023-06-17T22:16:25+00:00",
     "html_url": "https://github.com/mlabonne/llm-course",
     "license": "Apache License 2.0",
@@ -12077,7 +12147,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/199155426?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:43:31.712585",
+    "fetched_at": "2026-07-29T01:44:58.013658",
     "history": [
       {
         "date": "2026-02-25",
@@ -12848,6 +12918,11 @@
         "date": "2026-07-28",
         "stars": 81257,
         "forks": 9474
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 81279,
+        "forks": 9476
       }
     ]
   },
@@ -12855,8 +12930,8 @@
     "full_name": "pytorch/pytorch",
     "name": "pytorch",
     "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-    "stars": 102023,
-    "forks": 28557,
+    "stars": 102043,
+    "forks": 28566,
     "language": "Python",
     "topics": [
       "neural-network",
@@ -12868,62 +12943,62 @@
       "python",
       "machine-learning"
     ],
-    "last_updated": "2026-07-28T01:13:11+00:00",
+    "last_updated": "2026-07-29T01:44:51+00:00",
     "created_at": "2016-08-13T05:26:41+00:00",
     "html_url": "https://github.com/pytorch/pytorch",
     "license": "Other",
     "source": "watchlist",
     "recent_commits": [
       {
-        "sha": "408ee92f1a6ed1d761f9ab880947c44bade9f15f",
-        "message": "[Sobol] Validate input arguments (#191198)",
-        "author": "Nikita Shulga",
-        "date": "2026-07-27T15:36:47+00:00"
-      },
-      {
-        "sha": "569f1f64e14370cd72ffc64e0a5032084d2db93b",
-        "message": "Revert \"Add keepdim parameter to cosine_similarity (#189654)\"",
+        "sha": "26314d9476d043c95f33a9cc40c468b5a1643428",
+        "message": "Revert \"[Sobol] Validate input arguments (#191198)\"",
         "author": "PyTorch MergeBot",
-        "date": "2026-07-28T01:05:10+00:00"
+        "date": "2026-07-29T01:25:52+00:00"
       },
       {
-        "sha": "ab913c0a211aea9fd4f7fbcf15c28fb703c12df7",
-        "message": "Revert \"[Dynamo] Skip guards on unused constant ops (#189642)\"",
-        "author": "PyTorch MergeBot",
-        "date": "2026-07-28T01:02:37+00:00"
+        "sha": "7ae40640e0afcaa601a09dea5865d8a7d7d56e75",
+        "message": "[Test] Refactor test/test_ops.py (#186352)",
+        "author": "KarhouTam",
+        "date": "2026-07-25T01:34:07+00:00"
       },
       {
-        "sha": "809044678aa14020fee0b72b57688137489be180",
-        "message": "[Dynamo] Add descr_check to C descriptor VT tp_descr_get_impl (#190776)",
-        "author": "Charan6924",
-        "date": "2026-07-28T00:38:54+00:00"
+        "sha": "08c7f5d3b4ed6db3d05f824f98c9e07b52ec6b2f",
+        "message": "[Test] Refactor test/test_scatter_gather_ops.py (#186351)",
+        "author": "KarhouTam",
+        "date": "2026-07-25T01:34:07+00:00"
       },
       {
-        "sha": "68a2df8e5d79d2a28efa7406c32c08a782c05b83",
-        "message": "Handle non-natural SymPy powers in value range interp (#185786)",
-        "author": "Jason Ansel",
-        "date": "2026-07-27T21:42:01+00:00"
+        "sha": "341a9a20f576a13a754aa806c5a4089b84616bf1",
+        "message": "[Test] Refactor test/test_reductions.py (#185881)",
+        "author": "KarhouTam",
+        "date": "2026-07-25T01:34:07+00:00"
+      },
+      {
+        "sha": "f150a5bf27c3a63b20bb631e80dd07ffe3bd5e0a",
+        "message": "[c10d][nccl2] Make NCCL communicator config configurable from Python (#191068)",
+        "author": "Tristan Rice",
+        "date": "2026-07-28T21:20:24+00:00"
       }
     ],
     "contributors": [
       {
         "login": "pytorchmergebot",
-        "contributions": 5512,
+        "contributions": 5518,
         "avatar_url": "https://avatars.githubusercontent.com/u/97764156?v=4"
       },
       {
         "login": "ezyang",
-        "contributions": 3528,
+        "contributions": 3530,
         "avatar_url": "https://avatars.githubusercontent.com/u/13564?v=4"
       },
       {
         "login": "malfet",
-        "contributions": 3290,
+        "contributions": 3291,
         "avatar_url": "https://avatars.githubusercontent.com/u/2453524?v=4"
       },
       {
         "login": "zou3519",
-        "contributions": 1849,
+        "contributions": 1850,
         "avatar_url": "https://avatars.githubusercontent.com/u/5652049?v=4"
       },
       {
@@ -12932,7 +13007,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17618148?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:43:34.582818",
+    "fetched_at": "2026-07-29T01:45:00.706893",
     "history": [
       {
         "date": "2026-02-25",
@@ -13703,6 +13778,11 @@
         "date": "2026-07-28",
         "stars": 101986,
         "forks": 28534
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 102023,
+        "forks": 28557
       }
     ]
   },
@@ -13710,8 +13790,8 @@
     "full_name": "tensorflow/tensorflow",
     "name": "tensorflow",
     "description": "An Open Source Machine Learning Framework for Everyone",
-    "stars": 196577,
-    "forks": 75624,
+    "stars": 196573,
+    "forks": 75639,
     "language": "C++",
     "topics": [
       "tensorflow",
@@ -13723,52 +13803,52 @@
       "ml",
       "distributed"
     ],
-    "last_updated": "2026-07-28T01:22:07+00:00",
+    "last_updated": "2026-07-29T01:22:02+00:00",
     "created_at": "2015-11-07T01:19:20+00:00",
     "html_url": "https://github.com/tensorflow/tensorflow",
     "license": "Apache License 2.0",
     "source": "watchlist",
     "recent_commits": [
       {
-        "sha": "3481a38921f27356acd5a449a26c156375d1f88e",
-        "message": "[tsl] Wrap MaybeOwning in tsl namespace and add ReleaseOwning().",
-        "author": "Ce Zheng",
-        "date": "2026-07-28T01:17:26+00:00"
+        "sha": "4530645471b68435a429b90d2520719f96e7c863",
+        "message": "Align differing `dnn_version` fields in target_config",
+        "author": "Eusebio Durán Montaña",
+        "date": "2026-07-29T01:18:15+00:00"
       },
       {
-        "sha": "3db98da2b647d462b3ffdc1c720d35bed40f38e3",
-        "message": "HLO Isolator - Include fusion name in `FusionDebugger` error messages.",
+        "sha": "1cc789424915b875c90b061fad2511dc97589b7c",
+        "message": "Add an option to allow overriding client/server credentials for coordination service",
+        "author": "Junwhan Ahn",
+        "date": "2026-07-29T00:48:32+00:00"
+      },
+      {
+        "sha": "aca8863cfeb9c833bd3467940a7f933bdf0f859f",
+        "message": "[XLA] Support xla.debug.Log in sharding passes.",
         "author": "A. Unique TensorFlower",
-        "date": "2026-07-28T00:56:42+00:00"
+        "date": "2026-07-28T23:56:05+00:00"
       },
       {
-        "sha": "e5b7fb16fd8dd5ae3ff717a733d522aecdc10533",
-        "message": "[XLA:MSA] Re-write block prefetching to follow a buffer based approach. Also, supports async fusions in block prefetching.",
-        "author": "Ryan M. Lefever",
-        "date": "2026-07-28T00:39:21+00:00"
+        "sha": "7c29d588d324c77f80f73eec6996435db253a689",
+        "message": "Enforce early interval range and indexing validation in RemapPlan.",
+        "author": "Junwhan Ahn",
+        "date": "2026-07-28T23:46:57+00:00"
       },
       {
-        "sha": "74208f3c32505a5af51b4e3455444174faee78ef",
-        "message": "Shift Backend stream to check for successful creation",
-        "author": "William S. Moses",
-        "date": "2026-07-27T23:54:38+00:00"
-      },
-      {
-        "sha": "ac48e6600130a3e91d59353bbe0196cb46cd2112",
-        "message": "Constrain tfl.dynamic_update_slice folder to not fold when it's connected to module input and output.",
-        "author": "Weiyi Wang",
-        "date": "2026-07-27T23:16:23+00:00"
+        "sha": "66ce7fb50c4707a6bc01e505ab55d68e21a28a13",
+        "message": "Add a drop shape assertion pass",
+        "author": "Majid Dadashi",
+        "date": "2026-07-28T23:29:16+00:00"
       }
     ],
     "contributors": [
       {
         "login": "tensorflower-gardener",
-        "contributions": 58772,
+        "contributions": 58791,
         "avatar_url": "https://avatars.githubusercontent.com/u/17151892?v=4"
       },
       {
         "login": "ezhulenev",
-        "contributions": 2887,
+        "contributions": 2889,
         "avatar_url": "https://avatars.githubusercontent.com/u/1174378?v=4"
       },
       {
@@ -13778,7 +13858,7 @@
       },
       {
         "login": "hawkinsp",
-        "contributions": 1619,
+        "contributions": 1620,
         "avatar_url": "https://avatars.githubusercontent.com/u/348932?v=4"
       },
       {
@@ -13787,7 +13867,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/323199?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:43:37.379054",
+    "fetched_at": "2026-07-29T01:45:03.358650",
     "history": [
       {
         "date": "2026-02-25",
@@ -14558,6 +14638,11 @@
         "date": "2026-07-28",
         "stars": 196555,
         "forks": 75603
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 196577,
+        "forks": 75624
       }
     ]
   },
@@ -14565,8 +14650,8 @@
     "full_name": "keras-team/keras",
     "name": "keras",
     "description": "Deep Learning for humans",
-    "stars": 64184,
-    "forks": 19742,
+    "stars": 64186,
+    "forks": 19740,
     "language": "Python",
     "topics": [
       "deep-learning",
@@ -14578,41 +14663,41 @@
       "jax",
       "pytorch"
     ],
-    "last_updated": "2026-07-28T01:33:05+00:00",
+    "last_updated": "2026-07-29T00:11:18+00:00",
     "created_at": "2015-03-28T00:35:42+00:00",
     "html_url": "https://github.com/keras-team/keras",
     "license": "Apache License 2.0",
     "source": "watchlist",
     "recent_commits": [
       {
-        "sha": "2f6a15977d4ffa4a43a4e7441a390d8d70c0d108",
-        "message": "Fix workflow core warn error (#23344)",
+        "sha": "9597b137f33f9876af864e1d868e9f8f9dcac96a",
+        "message": "address comments on https://github.com/keras-team/keras/pull/23340 (#23342)",
         "author": "Divyashree Sreepathihalli",
-        "date": "2026-07-27T23:44:12+00:00"
+        "date": "2026-07-28T23:41:19+00:00"
       },
       {
-        "sha": "caf8b5f3fd05f08ccb77b40d9ba8094af72aa37f",
-        "message": "Fix gemini triage (#23343)",
+        "sha": "0f351d158c9e4c1ab0d8ec1b6b86984162d1a8b0",
+        "message": "Fix TraceContext error for NNX backend  reported in https://github.com/keras-team/keras/issues/23289 (#23326)",
         "author": "Divyashree Sreepathihalli",
-        "date": "2026-07-27T22:26:01+00:00"
+        "date": "2026-07-28T23:14:30+00:00"
       },
       {
-        "sha": "32b42214615457531cee61407c5807fe92fc1c0f",
-        "message": "fix issue triage workflow (#23341)",
-        "author": "Divyashree Sreepathihalli",
-        "date": "2026-07-27T21:40:45+00:00"
+        "sha": "8a90a7d828bd4bc8f9dbf9c4790c36ab3f219e0c",
+        "message": "Fix graph-mode evaluate() metric mismatch for fixed-batch tf.data datasets (#23179)",
+        "author": "Maitry Sinha",
+        "date": "2026-07-28T16:44:45+00:00"
       },
       {
-        "sha": "322d51145bd1ff806cdf33738332ab527a7fc5a7",
-        "message": "fix numpy bug in keras/src/ops/numpy.py and add test cases for it (#23340)",
-        "author": "Divyashree Sreepathihalli",
-        "date": "2026-07-27T20:20:03+00:00"
+        "sha": "fa9afd5a266fda5309ef11c8afebd8f8cc8f1e2c",
+        "message": "Fix alpha and beta swap in Tversky loss (#23333)",
+        "author": "Suhana",
+        "date": "2026-07-28T03:53:50+00:00"
       },
       {
-        "sha": "abd068b3cfd8da17c5c8fb8da53f8598645b4fd0",
-        "message": "Fix Logsumexp symbolic output dtype inference (#23307)",
-        "author": "Ugeun Park",
-        "date": "2026-07-24T17:51:29+00:00"
+        "sha": "75cd9546585da2d00a5dc51ae79570295be2b003",
+        "message": "perf(ops): inject traceback argument info on error only, not on every call (#23183)",
+        "author": "RAHUL KUMAR",
+        "date": "2026-07-28T03:51:36+00:00"
       }
     ],
     "contributors": [
@@ -14642,7 +14727,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/20734616?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:43:40.425925",
+    "fetched_at": "2026-07-29T01:45:06.237097",
     "history": [
       {
         "date": "2026-02-25",
@@ -15413,6 +15498,11 @@
         "date": "2026-07-28",
         "stars": 64180,
         "forks": 19744
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 64184,
+        "forks": 19742
       }
     ]
   },
@@ -15420,8 +15510,8 @@
     "full_name": "ray-project/ray",
     "name": "ray",
     "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
-    "stars": 43371,
-    "forks": 7842,
+    "stars": 43374,
+    "forks": 7848,
     "language": "Python",
     "topics": [
       "ray",
@@ -15445,41 +15535,41 @@
       "llm",
       "llm-inference"
     ],
-    "last_updated": "2026-07-28T01:39:54+00:00",
+    "last_updated": "2026-07-29T00:43:47+00:00",
     "created_at": "2016-10-25T19:38:30+00:00",
     "html_url": "https://github.com/ray-project/ray",
     "license": "Apache License 2.0",
     "source": "watchlist",
     "recent_commits": [
       {
-        "sha": "f6d159ac2d0c956202b83f9de936328571a703a8",
-        "message": "[core][rdt] Support cross-device transfers in RDT NIXL (#64815)",
-        "author": "Joshua Lee",
-        "date": "2026-07-28T01:39:48+00:00"
+        "sha": "dcd744225e6ec2a54613dd882e068c0b2f606bc3",
+        "message": "[Core] Fix TSAN data race in gcs_resource_load_puller_test (#65088)",
+        "author": "Robert Nishihara",
+        "date": "2026-07-29T00:40:34+00:00"
       },
       {
-        "sha": "e3fda936f884246738bf2fa7e5226167842c8fd7",
-        "message": "[Core] Fix spurious OwnerDiedError during graceful raylet shutdown (#64899)",
-        "author": "dragongu",
-        "date": "2026-07-28T01:30:14+00:00"
+        "sha": "6e160e6ed24b496edae5fca5cd87f5882a76d241",
+        "message": "[release] Fix huggingface_accelerate release test: floor peft>=0.18 for transformers 5.x (#65062)",
+        "author": "Elliot Barnwell",
+        "date": "2026-07-29T00:37:14+00:00"
       },
       {
-        "sha": "eb61f80134e2aeb82f777eff95669daa4e96c6be",
-        "message": "[Data] fix `iter_torch_batches` device resolution (#65059)",
-        "author": "Daniel Shin",
-        "date": "2026-07-28T00:49:44+00:00"
+        "sha": "ef4c26c1b9f6d40db733a35140d5aa67b3f5f91b",
+        "message": "[skill] Update ray-dependencies skill for unified requirements_compiled (#64736)",
+        "author": "Elliot Barnwell",
+        "date": "2026-07-29T00:22:54+00:00"
       },
       {
-        "sha": "fb92adae76d506cf92065b2775219405b6ba60e8",
-        "message": "[docs][core] Document the embedded RocksDB GCS backend (#64731)",
-        "author": "Santosh Jha",
-        "date": "2026-07-28T00:28:23+00:00"
+        "sha": "987b4bd2b19834b307c3d089b0bcba57f6d99c0e",
+        "message": "[ci] Enable Windows py3.13 and py3.14 wheel builds (#64970)",
+        "author": "Elliot Barnwell",
+        "date": "2026-07-29T00:21:18+00:00"
       },
       {
-        "sha": "94c170b1f120152ff267207e73b38336465800c5",
-        "message": "[core][actor scalability] Move the pending resource load pull off the GCS main io_context (#65024)",
-        "author": "Yicheng-Lu-llll",
-        "date": "2026-07-28T00:22:59+00:00"
+        "sha": "945152fd311c2d55cb0ff526ebac0ab4f85c8bf5",
+        "message": "[ci] Recompile dependency lock files on dependabot PRs (#65056)",
+        "author": "Elliot Barnwell",
+        "date": "2026-07-28T21:17:47+00:00"
       }
     ],
     "contributors": [
@@ -15505,11 +15595,11 @@
       },
       {
         "login": "robertnishihara",
-        "contributions": 925,
+        "contributions": 927,
         "avatar_url": "https://avatars.githubusercontent.com/u/249517?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:43:43.280042",
+    "fetched_at": "2026-07-29T01:45:08.946237",
     "history": [
       {
         "date": "2026-02-25",
@@ -16280,6 +16370,11 @@
         "date": "2026-07-28",
         "stars": 43359,
         "forks": 7836
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 43371,
+        "forks": 7842
       }
     ]
   },
@@ -16287,7 +16382,7 @@
     "full_name": "predibase/lorax",
     "name": "lorax",
     "description": "Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs",
-    "stars": 3822,
+    "stars": 3821,
     "forks": 325,
     "language": "Python",
     "topics": [
@@ -16303,7 +16398,7 @@
       "pytorch",
       "transformers"
     ],
-    "last_updated": "2026-07-27T18:57:01+00:00",
+    "last_updated": "2026-07-28T11:31:17+00:00",
     "created_at": "2023-10-20T18:19:49+00:00",
     "html_url": "https://github.com/predibase/lorax",
     "license": "Apache License 2.0",
@@ -16367,7 +16462,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/204321?v=4"
       }
     ],
-    "fetched_at": "2026-07-28T01:43:46.454582",
+    "fetched_at": "2026-07-29T01:45:11.861835",
     "history": [
       {
         "date": "2026-02-25",
@@ -17137,6 +17232,11 @@
       {
         "date": "2026-07-28",
         "stars": 3820,
+        "forks": 325
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 3822,
         "forks": 325
       }
     ]
